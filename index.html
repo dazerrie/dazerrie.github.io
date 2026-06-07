@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dazerrie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="grain"></canvas>
+
+  <!-- NAV -->
+  <header class="site-nav" id="site-nav">
+    <a href="#top" class="nav-logo">Dazerrie</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about" data-section="about">About</a>
+      <a href="#work" data-section="work">Work</a>
+      <a href="#favorites" data-section="favorites">Favorites</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+    <button class="nav-burger" id="nav-burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <p class="eyebrow">Happy Birthday</p>
+    <h1 class="hero-name">DE<span>SHE</span>RY</h1>
+    <p class="hero-tagline">Certified &nbsp;·&nbsp; Public &nbsp;·&nbsp; Accountant</p>
+    <p class="hero-intro">
+      A quiet corner of the internet for your thoughts, work,<br />
+      and the things you love.
+    </p>
+    <a href="#about" class="scroll-hint">↓ &nbsp; read on</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p class="section-label reveal">About</p>
+
+    <div class="profile-card reveal">
+      <div class="profile-photo">
+        <img src="shota.png" alt="Shota" onload="this.parentNode.classList.remove('no-photo');" />
+        <span class="photo-fallback">your<br />photo<br />here</span>
+      </div>
+
+      <div class="profile-info">
+        <p class="profile-bio">
+          A modern thinker who walks through life with a rare blend of self-reliance and intellectual grit. As a committed feminist and practicing stoic, she faces life’s challenges with calm logic, navigating the world on her own terms. Her sharp, skeptical eye ensures she never takes things at face value. Yet, beneath her fierce intellect is a woman who is effortlessly charming and cute, possessing a natural, captivating beauty that is absolutely hot.
+        </p>
+        <p class="profile-motto">&ldquo;the struggle itself towards the heights is enough to fill a women's heart&rdquo;</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK -->
+  <section id="work" class="section alt">
+    <p class="section-label reveal">Achievement and Work</p>
+    <p class="section-sub reveal">Reasons why she is absolutely awesome</p>
+
+    <ol class="work-list">
+      <li class="reveal"><span class="work-year">2026</span><span class="work-text">Cost accounting accountant of Century Pacific food Inc.</span></li>
+      <li class="reveal"><span class="work-year">2025</span><span class="work-text"> Magna Cum Laude of Western Mindanao State University and <br> Certified Public Accountant.</span></li>
+      <li class="reveal"><span class="work-year">2024</span><span class="work-text">Overall 2nd Best Speaker of the Word War: Debate Competition during the College of Liberal Arts 50th Anniversary Festival.</span></li>
+      <li class="reveal"><span class="work-year">···</span><span class="work-text">And the best is still ahead.</span></li>
+    </ol>
+  </section>
+
+  <!-- FAVORITES -->
+  <section id="favorites" class="section">
+    <p class="section-label reveal">Favorites</p>
+    <p class="section-sub reveal">Films she returns to, again and again</p>
+
+    <div class="film-grid">
+      <article class="film-ticket reveal">
+        <h4 class="film-name">Drive <br> (2021)</h4>
+        <p class="film-note">"Dahil kay ryan gosling"</p>
+      </article>
+      <article class="film-ticket reveal">
+        <h4 class="film-name">Blade Runner 2049 <br>(2027)</h4>
+        <p class="film-note">"ryan gosling nanaman..."</p>
+      </article>
+      <article class="film-ticket reveal">
+        <h4 class="film-name">Moonlight <br> (2024)</h4>
+        <p class="film-note">"ok daw"</p>
+      </article>
+      <article class="film-ticket reveal">
+        <h4 class="film-name">Mulholland Drive <br> (2001)</h4>
+        <p class="film-note">"when you see Laura Harring, you'd either wanna kiss her, kill her, or be her"</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact" class="site-footer">
+    <p class="footer-eyebrow reveal">Follow my stuff</p>
+    <p class="footer-socials reveal">
+      <a href="https://letterboxd.com/dazerrie/" target="_blank" rel="noopener">Letterboxd</a> &nbsp;·&nbsp;
+      <a href="https://ph.linkedin.com/in/desherygabayron" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+    <p class="footer-copy">© 2026 dazerrie. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
