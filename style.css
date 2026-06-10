@@ -545,3 +545,79 @@ body::after {
 
   .section { padding: 5rem 1.5rem; }
 }
+
+/* ===== REAL MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .site-nav {
+    padding: 0 1rem;
+  }
+
+  .nav-links {
+    gap: 1.2rem;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 0 1.2rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.8rem, 10vw, 4.5rem);
+    letter-spacing: 0.08em;
+  }
+
+  .hero-tagline {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+  }
+
+  .hero-intro {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* PROFILE SECTION */
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 180px;
+  }
+
+  .profile-bio {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  /* WORK SECTION */
+  .work-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .work-year {
+    font-size: 0.75rem;
+  }
+
+  .work-text {
+    font-size: 1rem;
+  }
+
+  /* FILM GRID */
+  .film-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* GENERAL SPACING */
+  .section {
+    padding: 4.5rem 1.2rem;
+  }
+
+}
